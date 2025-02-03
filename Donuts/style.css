@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.one {
+    background-color: #FEDCEA;
+    
+}
+.one .nav-item .nav-link{
+    color: #E74588;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.container h1{
+    color: #E74588;
+    font-size: 100px;
+    padding: 30px 30px 20px 5px;
+    font-weight: bolder;
+}
+.container p{
+    font-size: 1rem;
+    padding: 0 30px 0px 9px;
+}
+.container .btn{
+    border-radius: 30px;
+    background-color: #E74588;
+    padding: 10px 50px 10px 50px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.container .image{
+    width: 400px;
+    height: auto;
+}
+.menus{
+    background-color: #F9BDD9;
+}
+.card{
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    border: none; 
+    border-radius: 20px;
+    box-shadow: 0 2px 10px #E74588;
+    height: 100%;
+    margin: 0 10px 0 10px;
+  
+}
+.card-img-top {
+    height: 300px;
+    width: 60%; 
+    object-fit: fill;
+}
+.card-body{
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+}
+.card h5{
+  font-weight: bolder;
+}
+.card .btn{
+    border-radius: 30px;
+    background-color: #E74588;
+    padding: 8px 30px 8px 30px;
+    font-size: 1.5rem;
+    color: #fff;
+    border: none;
+    
+}
+.last{
+    background-color: #FEDCEA;
+}
+.last .images1{
+    padding: 30px 0 20px 50px;
+    width: 100%;
+    height: 80%;
+}
+.last h4{
+    color: #E74588;
+    padding: 30px 30px 20px 5px;
+}
+
+.last .container{
+    background-color: #E74588 ;
+    border-radius: 30px;
+}
+.last .btn{
+  background-color: #FCCFE6;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 8px 30px 8px 30px;
+  font-size: 1.5rem;
+  border: none;
+  width: 100%;
+}
+@media (max-width: 576px) {
+
+    .container h1 {
+        font-size: 50px; 
+        padding: 20px 20px 10px 2px;
+    }
+
+    .container p {
+        font-size: 0.9rem; 
+        padding: 0 20px;
+    }
+
+    .container .btn {
+        padding: 10px 20px; 
+        font-size: 1rem;
+    }
+
+    .container .image {
+        width: 80%; 
+        height: auto;
+    }
+    .card {
+       height: 100%;
+       margin: 0 10px 0 10px;
+    }
+
+
+    .last .images1 {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .last h4 {
+        font-size: 1.2rem; 
+    }
+}
+
+/* Medium screens (tablet) */
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 80px;
+        padding: 20px 20px 10px 2px;
+    }
+
+    .container .btn {
+        padding: 10px 30px; 
+    }
+    .card {
+        height: 100%;
+       
+     }
+   
+    .card-img-top {
+        height: 80%; 
+    }
+
+    .last h4 {
+        font-size: 1.5rem; 
+    }
+
+    .card .btn {
+        font-size: 1.2rem;
+        padding: 6px 20px;
+    }
+}
+
+/* Large screens (desktop) */
+@media (min-width: 992px) {
+    .container h1 {
+        font-size: 100px;
+        padding: 30px 30px 20px 5px;
+    }
+
+    .container .btn {
+        padding: 10px 50px;
+    }
+
+    .container .image {
+        width: 400px;
+        height: auto;
+    }
+}
